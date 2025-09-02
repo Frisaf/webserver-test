@@ -1,9 +1,20 @@
 import express from "express";
+import nunjucks from "nunjucks"
 
 const app = express()
 
+app.use(express.static("public"))
+
+nunjucks.configure("views", {
+    autoescape: true,
+    express: app
+})
+
 app.get("/", (req, res) => {
-    res.send("Hello TE23 välkomna :D")
+    res.render("index.njk", {
+        title: "blub glub",
+        message: "nyehehehehehehehehehehehehehehehe"
+    })
 });
 
 app.get("/about", (req, res) => {

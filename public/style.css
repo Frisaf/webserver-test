@@ -1,0 +1,9 @@
+body {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+.container {
+    margin-inline: auto;
+    width: 60vh;
+}
