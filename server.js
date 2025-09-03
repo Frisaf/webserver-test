@@ -18,8 +18,9 @@ app.get("/", (req, res) => {
 });
 
 app.get("/about", (req, res) => {
-    res.json({
-        "message": "Blubb"
+    res.render("about.njk", {
+        title: "About",
+        message: "Detta är ett skolarbete"
     })
 })
 
