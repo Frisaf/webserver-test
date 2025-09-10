@@ -5,7 +5,15 @@
 <main class="container">
     <h1>{{ title }}</h1>
     <p>{{ message }}</p>
-    <p>{{"/about" | urlize | safe }}</p>
+    <p>Läs mer om ingenting <a href="/about">här</a>.</p>
+    <p>Skriv något kul här nedan och få en opersonlig hälsning från dig själv!</p>
+    <form id="userMessage" action="/greeting" method="GET" onkeydown="if(event.keyCode === 13) {
+    alert('Använd submitknappen istället, idiot.');
+     return false;}">
+        <input placeholder="Vad heter du?" type="text" name="name">
+        <textarea name="message" rows="3" placeholder="Skriv något kul" cols="50"></textarea>
+        <button type="submit">Submit</button>
+    </form>
 </main>
 
 {% endblock %}

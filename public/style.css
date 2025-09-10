@@ -1,9 +1,23 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.2rem;
 }
 
 .container {
     margin-inline: auto;
     width: 60vh;
+}
+
+#userMessage {
+    display: grid;
+
+    input, textarea {
+        margin-bottom: 10px;
+        font-family: inherit;
+        font-size: 1rem;
+    }
+
+    button {
+        width: fit-content;
+    }
 }

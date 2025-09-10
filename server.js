@@ -14,8 +14,8 @@ nunjucks.configure("views", {
 
 app.get("/", (req, res) => {
     res.render("index.njk", {
-        title: "blub glub",
-        message: "nyehehehehehehehehehehehehehehehe"
+        title: "En mycket fin webbsida",
+        message: "Webbserverprogrammering is now real!"
     })
 });
 
@@ -27,8 +27,13 @@ app.get("/about", (req, res) => {
 })
 
 app.get("/greeting", (req, res) => {
-    res.send(`HALLOJ I STUGAN ${req.query.name}! ${req.query.message}!`)
-    console.log(req.query.hey)
+    // res.send(`HALLOJ I STUGAN ${req.query.name}! ${req.query.message}!`)
+    // console.log(req.query.hey)
+
+    res.render("greeting.njk", {
+        title: "Hej!",
+        message: `Hej, ${req.query.name}! ${req.query.message}! Med ovänliga hälsningar, ${req.query.name}`
+    })
 })
 
 app.listen(3000, () => {
