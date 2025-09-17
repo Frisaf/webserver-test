@@ -36,6 +36,13 @@ app.get("/greeting", (req, res) => {
     })
 })
 
+app.get("/trash", (req, res) => {
+    res.render("trash.njk", {
+        title: "Bunch of trash",
+        message: req.query.message
+    })
+})
+
 app.listen(3000, () => {
     console.log("Server is running on http://localhost:3000")
 })

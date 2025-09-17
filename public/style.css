@@ -21,3 +21,33 @@ body {
         width: fit-content;
     }
 }
+
+nav {
+    width: 60vh;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+
+    .navLinks {
+        display: flex;
+        gap: 1rem;
+
+        a {
+            text-decoration: none;
+            color: unset;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: unset;
+    }
+}
+
+img {
+    max-width: 100%;
+}

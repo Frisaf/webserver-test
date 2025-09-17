@@ -10,8 +10,8 @@
     <form id="userMessage" action="/greeting" method="GET" onkeydown="if(event.keyCode === 13) {
     alert('Använd submitknappen istället, idiot.');
      return false;}">
-        <input placeholder="Vad heter du?" type="text" name="name">
-        <textarea name="message" rows="3" placeholder="Skriv något kul" cols="50"></textarea>
+        <input placeholder="Vad heter du?" type="text" name="name" autocomplete="off">
+        <textarea name="message" rows="3" placeholder="Skriv något kul" cols="50" autocomplete="off"></textarea>
         <button type="submit">Submit</button>
     </form>
 </main>
