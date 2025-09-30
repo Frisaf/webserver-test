@@ -1,0 +1,14 @@
+{
+    "movies": [
+    {
+        "id": 1,
+        "title": "Trippen",
+        "year": 2025
+    },
+    {
+        "id": 2,
+        "title": "The Thing",
+        "year": 1982
+    }
+    ]
+}

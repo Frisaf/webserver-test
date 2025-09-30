@@ -33,4 +33,10 @@ router.get("/trash", (req, res) => {
     })
 })
 
+router.get("./data/movies:id", (req, res) => {
+    const id = req.params.id
+    const movie = movies.find(movie => movie.id === Number(id))
+    res.json(movie)
+})
+
 export default router
