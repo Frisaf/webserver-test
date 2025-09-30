@@ -1,0 +1,15 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+
+<main class="container">
+    <h1>{{ title }}</h1>
+    <p>Some movies and what I think about them. These are my PERSONAL OPINION.</p>
+    <hr>
+    {% for movie in movies %}
+        <p><strong>{{ movie.title }} ({{ movie.year }}, {{ movie.language }}):</strong> {{ movie.rating }}</p>
+        <hr>
+    {% endfor %}
+</main>
+
+{% endblock %}

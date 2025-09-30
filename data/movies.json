@@ -3,12 +3,16 @@
     {
         "id": 1,
         "title": "Trippen",
-        "year": 2025
+        "year": 2025,
+        "language": "Swedish",
+        "rating": "Väldigt bra och humoristisk film i vanlig IJustWantToBeCool-anda. Det är verkligen som en lång version av deras sketcher! Jag hade dock kunna önska lite bättre effekter, för på vissa ställen såg man hur det ganska tydligt var fejk, vilket man i och för sig förstår ändå, men det är ändå önskvärt att det ska se så realistiskt ut som möjligt. Sedan förstår jag givetvis att de har bekostat hela filmen själva, och att de därmed kanske har en lite mer tight budget. Min rating blir 8/10."
     },
     {
         "id": 2,
         "title": "The Thing",
-        "year": 1982
+        "year": 1982,
+        "language": "English",
+        "rating": "Really good movie, and it is truly ahead of its time! It's gorey, but in a good way. You never know what to expect next, because before you know it, one you would never suspect is infected is indeed infected! My rating is 10/10."
     }
     ]
 }
