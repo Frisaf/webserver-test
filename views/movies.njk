@@ -5,9 +5,11 @@
 <main class="container">
     <h1>{{ title }}</h1>
     <p>Some movies and what I think about them. These are my PERSONAL OPINION.</p>
+    <p>Click on the movie title to get a more in depth review. Please note that they reviews might contain spoilers! Proceed with caution...</p>
     <hr>
     {% for movie in movies %}
-        <p><strong>{{ movie.title }} ({{ movie.year }}, {{ movie.language }}):</strong> {{ movie.rating }}</p>
+        <p><strong><a href="/movies/{{ movie.id }}">{{ movie.title }}</a> ({{ movie.year }}, {{ movie.language }}):</strong> {{ movie.rating }}</p>
+        <p><strong>Genre: </strong>{{ movie.genre }}</p>
         <hr>
     {% endfor %}
 </main>

@@ -5,14 +5,36 @@
         "title": "Trippen",
         "year": 2025,
         "language": "Swedish",
-        "rating": "Väldigt bra och humoristisk film i vanlig IJustWantToBeCool-anda. Det är verkligen som en lång version av deras sketcher! Jag hade dock kunna önska lite bättre effekter, för på vissa ställen såg man hur det ganska tydligt var fejk, vilket man i och för sig förstår ändå, men det är ändå önskvärt att det ska se så realistiskt ut som möjligt. Sedan förstår jag givetvis att de har bekostat hela filmen själva, och att de därmed kanske har en lite mer tight budget. Min rating blir 8/10."
+        "rating": "8/10",
+        "review": "Väldigt bra och humoristisk film i vanlig IJustWantToBeCool-anda. Det är verkligen som en lång version av deras sketcher! Jag hade dock kunna önska lite bättre effekter, för på vissa ställen såg man hur det ganska tydligt var fejk, vilket man i och för sig förstår ändå, men det är ändå önskvärt att det ska se så realistiskt ut som möjligt. Sedan förstår jag givetvis att de har bekostat hela filmen själva, och att de därmed kanske har en lite mer tight budget.",
+        "genre": "Comedy"
     },
     {
         "id": 2,
         "title": "The Thing",
         "year": 1982,
         "language": "English",
-        "rating": "Really good movie, and it is truly ahead of its time! It's gorey, but in a good way. You never know what to expect next, because before you know it, one you would never suspect is infected is indeed infected! My rating is 10/10."
+        "rating": "10/10",
+        "review": "Really good movie, and it is truly ahead of its time! Even though it was made in 1982, the effects are surprisingly realistic. I cannot imagine all the work that they required, considering they didn't have CGI back then. It's gorey, but in a good way. You never know what to expect next, because before you know it, one you would never suspect is infected is indeed infected!",
+        "genre": "Horror"
+    },
+    {
+        "id": 3,
+        "title": "The Shawshank Redemption",
+        "year": 1994,
+        "language": "English",
+        "rating": "10/10",
+        "review": "A wonderful piece of art! The character development is phenomenal, and the characters' love for each other are really well made. Even though it is really tragic at times, it is also a very beautifully made and heartbreaking at times.",
+        "genre": "Drama"
+    },
+    {
+        "id": 4,
+        "title": "The Green Mile",
+        "year": 1999,
+        "language": "English",
+        "rating": "10/10",
+        "review": "Fantasy mixed with reality! A really heartbreaking and well directed movie. I love the prison guards' love and care for each other, and how good friends they are. At the start, I think we all know how it was going to end, or at least somewhat. They are, after all at the death row, however fun they try to make it. But even so, I had a tiny sliver of hope that it would somehow end well for them all.",
+        "genre": "Fantasy drama"
     }
     ]
 }

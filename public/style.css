@@ -52,3 +52,12 @@ nav {
 img {
     max-width: 100%;
 }
+
+a {
+    color: unset;
+    text-decoration: unset;
+}
+
+a:hover {
+    text-decoration: underline;
+}
