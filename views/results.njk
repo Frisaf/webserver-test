@@ -1,0 +1,14 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+
+<main class="container">
+    <h1>{{ title }} for "{{ query }}"</h1>
+    {% for result in results %}
+        <p><strong><a href="/movies/{{ result.id }}">{{ result.title }}</a> ({{ result.year }}, {{ result.language }}):</strong> {{ result.rating }}</p>
+        <p><strong>Genre: </strong>{{ result.genre }}</p>
+        <hr>
+    {% endfor %}
+</main>
+
+{% endblock %}

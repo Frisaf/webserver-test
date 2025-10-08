@@ -56,4 +56,30 @@ router.get("/movies/:id", (req, res) => {
     }
 })
 
+router.get("/search", (req, res) => {
+    const query = req.query.q
+    const results = movies.filter(movie => movie.title.toLowerCase().includes(query.toLowerCase()))
+
+    res.render("results.njk", {
+            title: "Search results",
+            results,
+            query
+        })
+})
+
+router.post("/movies", (req, res) => {
+    const title = req.body.title
+    const year = req.body.year
+    const rating = req.body.rating
+    const review = req.body.review
+    const langauge = req.body.langauge
+    const genre = req.body.genre
+    const id = movies.length + 1
+    const movie = { id, title, year, langauge, rating, review, genre }
+
+    movies.push(movie)
+    
+    res.redirect("/movies")
+})
+
 export default router

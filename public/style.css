@@ -61,3 +61,26 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+form {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        font-family: inherit;
+        font-size: inherit;
+        border: none;
+        border-radius: 10px;
+    }
+
+    button {
+        padding: 10px;
+        font-size: inherit;
+        font-family: inherit;
+        border: none;
+        border-radius: 10px;
+    }
+}

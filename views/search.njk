@@ -1,0 +1,15 @@
+<h4>Search for a movie</h4>
+<form action="/search" method="GET">
+    <input type="text" name="q" autocomplete="off" placeholder="Search for a movie...">
+    <button type="submit">Search</button>
+</form>
+<h4>Add a movie</h4>
+<form action="/movies" method="POST">
+    <input type="text" name="title" autocomplete="off" placeholder="Movie title" required>
+    <input type="text" name="language" autocomplete="off" placeholder="Movie language" required>
+    <input type="text" name="genre" placeholder="Genre" required>
+    <input type="number" name="year" autocomplete="off" placeholder="Year of release" required>
+    <input type="number" name="rating" autocomplete="off" placeholder="Your rating 0-10" min="0" max="10" required>
+    <textarea name="review" rows="3" placeholder="Your review" cols="50" autocomplete="off"></textarea>
+    <button type="submit">Add movie</button>
+</form>
