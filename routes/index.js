@@ -70,12 +70,12 @@ router.get("/search", (req, res) => {
 router.post("/movies", (req, res) => {
     const title = req.body.title
     const year = req.body.year
-    const rating = req.body.rating
+    const rating = `${req.body.rating}/10`
     const review = req.body.review
-    const langauge = req.body.langauge
+    const language = req.body.language
     const genre = req.body.genre
     const id = movies.length + 1
-    const movie = { id, title, year, langauge, rating, review, genre }
+    const movie = { id, title, year, language, rating, review, genre }
 
     movies.push(movie)
     

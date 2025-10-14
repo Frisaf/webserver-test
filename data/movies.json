@@ -35,6 +35,15 @@
         "rating": "10/10",
         "review": "Fantasy mixed with reality! A really heartbreaking and well directed movie. I love the prison guards' love and care for each other, and how good friends they are. At the start, I think we all know how it was going to end, or at least somewhat. They are, after all at the death row, however fun they try to make it. But even so, I had a tiny sliver of hope that it would somehow end well for them all.",
         "genre": "Fantasy drama"
+    },
+    {
+        "id": 5,
+        "title": "A Minecraft Movie",
+        "year": 2025,
+        "language": "English",
+        "rating": "7/10",
+        "review": "Pretty good. A bit childish but it was a childrens' movie after all. I appreciate all the memes that came out of it though, and all the references. I really love that they included Technoblade in it.",
+        "genre": "Fantasy adventure"
     }
     ]
 }
